@@ -270,3 +270,15 @@ a {
   background-color: red;
   transform: scale(1.02);
 }
+
+.pdf {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); /* 9 columns */
+  gap: 10px; /* spacing between buttons */
+}
+#mypdf {
+  border-radius: 20px;
+  margin: 25px;
+  height: "100px";
+  width: "100px";
+}
