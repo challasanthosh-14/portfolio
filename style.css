@@ -110,7 +110,7 @@ h1 {
   text-align: center;
   align-items: center;
   font-weight: bold;
-  gap: 250px;
+  gap: 150px;
 }
 #scale:hover {
   transform: scale(1.05);
