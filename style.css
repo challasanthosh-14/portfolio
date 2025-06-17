@@ -2,7 +2,6 @@
 * {
   font-family: "Product Sans", sans-serif;
   box-sizing: border-box;
-  word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
@@ -23,12 +22,7 @@ p{
   font-size: 20px;
 }
 
-#mn {
-  color: black;
-  font-size: large;
 
-  margin: 20px;
-}
 .navbar {
   display: flex;
   flex-direction: row;
@@ -63,6 +57,7 @@ p{
 }
 .home {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -72,7 +67,10 @@ p{
 .home-left {
   width: 50vw;
   text-align: center;
+  justify-content: center;
   padding-left: 200px;
+  padding-top: 100px;
+  flex-wrap: wrap;
 }
 .home-right {
   width: 50vw;
@@ -104,9 +102,10 @@ p{
 }
 .projects {
   display: flex;
+  flex-wrap: wrap;
   background-color: grey;
   border: 3px solid black;
-  height: 100px;
+  width: 96%;
   border-radius: 10px;
   text-align: center;
   margin: 30px;
