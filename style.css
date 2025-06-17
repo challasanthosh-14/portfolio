@@ -65,27 +65,23 @@ p {
 }
 .home {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  height: 85vh;
-  color: rgb(243, 238, 238);
+  width: 100vw;
+  flex-wrap: wrap;
 }
+
 .home-left {
   width: 50vw;
   text-align: center;
   justify-content: center;
+  align-items: center;
   padding-left: 200px;
   padding-top: 100px;
-  flex-wrap: wrap;
-
-  flex-direction: row;
 }
+
 .home-right {
   width: 50vw;
   padding: 100px;
-  border: 5px black;
   border-radius: 100px;
   padding-top: 100px;
 }
